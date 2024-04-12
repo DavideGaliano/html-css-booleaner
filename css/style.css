@@ -4,6 +4,7 @@ body {
 
 header {
     background-color: #9cd6f4;
+    background-image: url(../img/pattern.png);
 }
 
 header .logo {
@@ -55,6 +56,10 @@ article {
     margin-bottom: 30px;
 }
 
+article .evidenzia {
+    background-color: yellow;
+}
+
 table {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -63,7 +68,20 @@ table {
 th {
     background-color: #7fa6fb;
     color: white;
+    text-align: left;
 
+}
+
+th.primacolonna {
+    width: 470px;
+}
+
+th.secondacolonna {
+    width: 470px;
+}
+
+th.terzacolonna {
+    width: 900px;
 }
 
 table tr:nth-child(odd) {
@@ -81,6 +99,6 @@ footer {
     background-color: #313a6b;
     color: white;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 0px;
     width: 100%;
 }
