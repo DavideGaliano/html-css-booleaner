@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #9cd6f4;
+}
+
+header .logo {
+    width: 200px;
+    height: 55px;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
