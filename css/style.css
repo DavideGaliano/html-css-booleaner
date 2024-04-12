@@ -13,3 +13,74 @@ header .logo {
     margin-left: 15px;
     margin-bottom: 40px;
 }
+
+main {
+    margin-left: 15px;
+}
+
+.titolo h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.titolo h2 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #808090;
+    font-size: 17px;
+}
+
+.titolo .autore {
+    color: #4eb5ff ;
+}
+
+.titolo h3 {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #808090;
+}
+
+
+
+.immagini h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+article {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+th {
+    background-color: #7fa6fb;
+    color: white;
+
+}
+
+table tr:nth-child(odd) {
+    background-color: #dfe5f2;
+    
+}
+
+/* Stile per le righe pari */
+table tr:nth-child(even) {
+    background-color: #ffffff;
+    
+}
+
+footer {
+    background-color: #313a6b;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    width: 100%;
+}
